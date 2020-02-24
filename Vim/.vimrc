@@ -18,10 +18,14 @@ set exrc
 set secure
 syntax enable
 set background=dark
-colorscheme solarized
-"autoloading pthogen
-autocmd vimenter * NERDTree
-execute pathogen#infect()
-"NerdTree
-nnoremap <F4> :NERDTreeToggle<CR>
+colorscheme blue
+
 set encoding=utf-8
+
+" Keybindings 
+
+let mapleader = " "
+inoremap jj <Esc>
+nmap <leader>w :w<CR>
+nmap <leader>x :x<CR>
+nmap <leader>q :q<CR>
